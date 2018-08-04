@@ -1,2 +1,4 @@
-# Needleman Wunsch
-Educational demo of Needleman-Wunsch optimal global alignment algorithm
+# Needleman Wunsch Demo
+Demonstration of [Needleman-Wunsch algorithm](
+https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm
+) for educational purposes

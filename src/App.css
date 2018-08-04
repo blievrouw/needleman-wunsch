@@ -1,28 +1,56 @@
-.App {
-  text-align: center;
+/* parameters */
+.param-label {
+    display: block;
+}
+.form-group {
+    width: 120px;
+}
+.form-group input, select {
+    width: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+/* navbar */
+.nav-item a {
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* scoring grid */
+.score-rect {
+    fill: #ffffff;
+    stroke: #d1d1d1;
+    stroke-width: 1px;
+    fill-opacity: .1;
+    stroke-opacity: 0.9
+}
+.score-text {
+    font-size: 18px;
+    fill: black;
+}
+.score-option-text {
+    font-size: 18px;
+    fill: #d3d3d3;
 }
 
-.App-title {
-  font-size: 1.5em;
+.score-arrow {
+    fill: #000000;
 }
 
-.App-intro {
-  font-size: large;
+.cell {
+    font-size: 40px;
+}
+.cell-rect {
+    fill: #ffffff;
+    fill-opacity: .1;
+    stroke-opacity: 0.9
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* generic */
+.margin {
+    margin: 20px;
+}
+
+.center-text {
+    width: 100%;
+    text-align: center;
 }
